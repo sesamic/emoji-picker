@@ -1,4 +1,4 @@
 # emoji-picker
 sesamic emoji picker.
 
-**WARNING:** During dev builds (`vite dev`), there may be styling issues. However, in production (`vite build && vite preview`) the picker's CSS will load normally.
+Based on [@hokkiai/discord-emoji-selector](https://www.npmjs.com/package/@hokkiai/discord-emoji-selector)
