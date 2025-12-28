@@ -53,8 +53,9 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
+    "prepare": "npm run build",
     "preview": "vite preview",
-    "package": "svelte-package -w",
+    "package": "svelte-package",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
