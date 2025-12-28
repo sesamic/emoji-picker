@@ -55,7 +55,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
-    "prepare": "npm run build",
+    "prepare": "test -d dist || npm run build",
     "preview": "vite preview",
     "package": "svelte-package",
     "check": "svelte-check --tsconfig ./tsconfig.json",
