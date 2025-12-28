@@ -152,7 +152,7 @@
     bind:this={pickerRef}
     id={"emojipicker-" + id}
     class={cn(
-      "HOKKIEMOJIPICKER-emojiSelector overflow-hidden flex flex-col rounded-xl border-1 bg-[#131416] border-[#363639]/10",
+      "HOKKIEMOJIPICKER-emojiSelector overflow-hidden flex flex-col rounded-xl border-1 bg-[#131416] border-[#363639]/10 text-white",
       className
     )}
     style:height="{height}px"
