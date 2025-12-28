@@ -787,7 +787,7 @@
     }
 
     .HOKKIEMOJIPICKER-emojiContainer .text-white {
-        color: var(--color-white)
+        color: #e4e4e4
     }
 
     .HOKKIEMOJIPICKER-emojiContainer .opacity-0 {
@@ -973,9 +973,9 @@
     color: currentColor
 }
 
-.HOKKIEMOJIPICKER-emojiContainer {
+/*.HOKKIEMOJIPICKER-emojiContainer {
     background-color: var(--color-white)
-}
+}*/
 
 @media (prefers-color-scheme:dark) {
 
