@@ -1,6 +1,6 @@
 {
-  "name": "emoji-picker",
-  "version": "0.1.1",
+  "name": "@sesamic/emoji-picker",
+  "version": "0.1.0",
   "description": "sesamic emoji picker.",
   "homepage": "https://github.com/sesamic/emoji-picker#readme",
   "bugs": {
@@ -57,6 +57,7 @@
     "build": "vite build && npm run package",
     "prepare": "npm run build",
     "preview": "vite preview",
+    "prepublishOnly": "npm run prepare",
     "package": "svelte-package",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
