@@ -1,0 +1,1 @@
+export { default as MagnifierLinear } from './MagnifierLinear.svelte';

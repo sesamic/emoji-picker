@@ -1,3 +1,8 @@
+/build
+/.svelte-kit
+/package
+/dist
+
 # Logs
 logs
 *.log
